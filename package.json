@@ -1,0 +1,33 @@
+{
+  "name": "discord-guardian-bot",
+  "version": "1.0.0",
+  "description": "Discord anti-spam bot with link scanning and behavioral detection to protect against wallet-draining scams",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node test/test-scanner.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "security",
+    "anti-spam",
+    "moderation",
+    "phishing-detection",
+    "behavioral-analysis",
+    "crypto-security"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.1",
+    "node-fetch": "^3.3.2",
+    "better-sqlite3": "^9.4.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
